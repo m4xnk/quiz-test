@@ -11,7 +11,7 @@ const questions = [
   { q: "Which animal is known as the king of jungle?", options: ["Tiger", "Elephant", "Lion", "Bear"], answer: 2 },
   { q: "Which device is used to type?", options: ["Monitor", "Keyboard", "Mouse", "Speaker"], answer: 1 },
   { q: "Which device is output device?", options: ["Keyboard", "Mouse", "Monitor", "lightpen"], answer: 2 },
-  { q: "Which Windows version is latest?", options: ["Windows XP", "Windows 10", "Windows 8", "Windows 10"], answer: 3 }
+  { q: "Which Windows version is latest?", options: ["Windows XP", "Windows 10", "Windows 8", "Windows 11"], answer: 3 }
 ];
 
 let currentQuestionIndex = 0;

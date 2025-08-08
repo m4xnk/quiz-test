@@ -1,0 +1,170 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+#startPage {
+  display: flex;                      /* CHANGING AREA*/
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: aquamarine;
+}
+#examPortel {
+  display: none;                           /* CHANGING AREA*/
+  background-color: red;
+  height: 500px;
+}
+#question {
+  width: 70%;
+  background-color: blue;
+}
+#qno {
+  width: 30%;
+  background-color: rgb(4, 182, 4);
+}
+#questions h1 {
+  margin-top: 40px;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+}
+#questions h2 {
+  margin: 20px;
+  color: yellow;
+}
+#questions label{
+  font-size: 1.5rem;
+  color: white;
+  margin-top: 50px;
+}
+#valar{
+  margin-top: 50px;
+  display: flex;
+}
+#valar input{
+  width: 80px;
+  height: 30px;
+  margin-top: 40px;
+  margin-left: 20px;
+  padding: 20px;
+  font-size: 1.3rem;
+  background-color: antiquewhite;
+}
+#valar button{
+  margin-top: 40px;
+  width: 100px;
+  height: 40px;
+  margin-left: 230px;
+  background-color: rgb(0, 255, 255);
+  color: blue;
+  font-size: 1.3rem;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+#valar button:hover{
+  transform: scale(1.1);
+}
+#anssave{
+  margin-top: 50px;
+  margin-left: 10px;
+  color: rgb(255, 238, 0);
+}
+#option {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+#option h3 {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+label, input {
+  display: block;
+  margin: 20px;
+
+}
+.btn, .btn3, .btn4 {
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s ease-in-out;
+}
+.btn {
+  background-color: rebeccapurple;
+  color: white;
+  border-radius: 5px;
+  font-size: medium;
+}
+.btn:hover{
+  background-color: white;
+  color: blueviolet;
+  transform: scale(1.2);
+}
+#nextPrev {                                   
+  height: 195px;
+  display: none;                               /* CHANGING AREA = NONE */
+  text-align: center;
+  padding: 20px;
+  background-color: yellow;
+}
+#closeTestBro {                                
+  margin-top: 200px;                                     
+  display: none;                               /* CHANGING AREA = NONE*/
+  text-align: center;
+  padding: 50px;
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+}
+#questionNumber {
+  margin-top: 30px;
+  text-align: center;
+  padding: 10px;
+}
+.btn3 {
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 1.3rem;
+  font-weight: 600;
+  border: 1px solid rgb(255, 0, 0);
+}
+.btn3:hover{
+  transform: scale(1.2);
+}
+#timer {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  margin-top: 10px;
+  border-bottom: 3px solid black;
+}
+.btn4{
+  border-radius: 8px;
+  margin: 15px 30px;
+  background-color: blueviolet;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600  ;
+}
+.btn4:hover{
+  transform: scale(1.2);
+}
+.close{
+  background-color: red;
+}
+.close:hover{
+  background-color: white;
+  color: red;
+}

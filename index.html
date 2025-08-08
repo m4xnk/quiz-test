@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QUIZ</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="startPage">
+      <button class="btn" id="startButton" onclick="ShowQuestions()">
+        START QUIZ
+      </button>
+    </section>
+
+    <section id="examPortel">
+      <div id="question">
+        <div id="questions">
+          <h1>QUIZ QUESTIONS</h1>
+          <h2 id="qs">Q1. What is the capital of India?</h2>
+          <div id="option"></div>
+          <div id="valar">
+            <label>Enter your answer number here →</label>
+            <input type="number" min="1" max="4" />
+            <button class="btn2" onclick="fun()">SAVE</button>
+            <p id="anssave"></p>
+          </div>
+        </div>
+      </div>
+      <div id="qno">
+        <h1 id="timer">05:00</h1>
+        <div id="questionNumber">
+          <button class="btn3">1</button>
+          <button class="btn3">2</button>
+          <button class="btn3">3</button><br />
+          <button class="btn3">4</button>
+          <button class="btn3">5</button>
+          <button class="btn3">6</button><br />
+          <button class="btn3">7</button>
+          <button class="btn3">8</button>
+          <button class="btn3">9</button><br />
+          <button class="btn3">10</button>
+        </div>
+      </div>
+    </section>
+
+    <div id="nextPrev">
+      <button class="btn4" id="prev">PREVIOUS</button>
+      <button class="btn4" id="next">NEXT</button><br />
+      <button class="btn4 close" id="close" onclick="closeTest()">CLOSE</button>
+    </div>
+
+    <section id="closeTestBro">
+      <h1>TEST CLOSED</h1>
+      <h1>YOUR RESULT IS : 0</h1>
+      <h2 id="resultMessage">Hello</h2>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
